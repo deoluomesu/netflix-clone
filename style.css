@@ -6,6 +6,15 @@
     list-style-type: none;
 }
 
+section{
+    background-color: #000000;
+    padding: 50px 0;
+}
+
+section h3{
+    color: #fff;
+}
+
 
 .hero{
     background-image: linear-gradient(to bottom,rgba(4, 1, 0, 0.8) 0%, rgba(0, 0, 0, 0.756) 80%),url(./images/hero-bckgd.jpg);
@@ -73,6 +82,8 @@ nav{
 }
 
 
+
+
 .carousel-inner {
   display: block; 
 }
@@ -84,6 +95,7 @@ nav{
 
 .carousel-item img {
   width: 100%;
+  border-radius: 8px;
 }
 
 
@@ -106,7 +118,7 @@ nav{
 
 
 .card-wrapper{
-    border: 2px solid red;
+
     display: flex;
     justify-content: space-between;
     gap: 1em;
@@ -115,6 +127,9 @@ nav{
 
 .card{
     width: 20rem;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom,#1A2043 0%, #1C1B35 50%, #200F19 90%), linear-gradient(to right,#1C1B35 60%, #311324 80%);
+    color: #fff;
 }
 
 
@@ -130,7 +145,7 @@ nav{
     border: none;
     border-radius: none;
     background-color: #000000;
-    --bs-accordion-active-color: #2C1762;
+    --bs-accordion-active-color: #fff;
     --bs-accordion-active-bg: #414141;
     --bs-accordion-btn-focus-box-shadow: none;
     --bs-accordion-border-radius: none;
@@ -146,7 +161,7 @@ nav{
     box-shadow: 0 0 10px rgba(31, 31, 155, 0.1);
     margin-bottom: 1em;
     padding: 10px;
-    color: #616161;
+    color: #fff;
     border-radius: none;
     border: none;
     transition: background-color 0.1s;
