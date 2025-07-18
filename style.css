@@ -84,6 +84,19 @@ nav {
   border: none;
 }
 
+.post-hero-sect{
+    background-color: inherit;
+}
+
+.post-hero{
+    width: 100%;
+    border-top: 4px solid red;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    height: 50px;
+    background-image: radial-gradient( #0D132D 30%, #070222 60%, #000000 100%);
+}
+
 .carousel-inner {
   display: block;
 }
@@ -192,6 +205,20 @@ svg {
   transition: background-color 0.1s;
 }
 
+footer{
+    background-color: #000000;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10em;
+}
+
+.footer-links-list li a{
+    color: #716e6e;
+}
+
+
 @media (min-width: 319px) and (max-width: 959px) {
   .hero {
     width: 100%;
@@ -240,7 +267,6 @@ svg {
     padding: none;
   }
   .card {
-    border: 2px solid blue;
     width: 100%;
     height: auto;
   }
@@ -262,7 +288,10 @@ svg {
   section h3 {
     font-size: 1.2em;
   }
-
+  .footer-links{
+    flex-direction: column;
+    gap: 0;
+  }
  
 }
 
