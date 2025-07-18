@@ -25,6 +25,7 @@ section h3 {
     url(./images/hero-bckgd.jpg);
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 
 nav {
@@ -50,7 +51,7 @@ nav {
 .hero-text {
   color: white;
   text-align: center;
-  margin: 160px auto;
+  margin-top: 160px auto;
 }
 
 .hero-text h1 {
@@ -84,11 +85,13 @@ nav {
   border: none;
 }
 
-.post-hero-sect{
-    background-color: inherit;
+.trending-sect{
+    padding: 0;
 }
 
 .post-hero{
+    position: absolute;
+    bottom: 0px;
     width: 100%;
     border-top: 4px solid red;
     border-top-left-radius: 60%;
@@ -123,12 +126,11 @@ nav {
 
 .carousel-control-prev,
 .carousel-control-next {
-  opacity: 1 !important;
+  opacity: 1;
 }
 
 .card-wrapper {
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
   gap: 1em;
 }
@@ -145,7 +147,7 @@ nav {
     ),
     linear-gradient(to right, #1c1b35 60%, #311324 80%);
   color: #fff;
-  border: 2px solid #2c1762;
+
 }
 
 .card-body {
@@ -222,7 +224,7 @@ footer{
 @media (min-width: 319px) and (max-width: 959px) {
   .hero {
     width: 100%;
-    border: 2px solid #2c1762;
+
   }
   nav {
     width: 90%;
